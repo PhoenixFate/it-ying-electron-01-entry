@@ -29,6 +29,14 @@ const createWindow = () => {
     // when you should delete the corresponding element.
     mainWindow = null;
   });
+
+
+  //执行设置菜单操作
+  // require('./menu.js')
+
+
+
+
 };
 
 // This method will be called when Electron has finished
