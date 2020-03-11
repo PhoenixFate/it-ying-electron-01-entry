@@ -26,11 +26,14 @@
     <h1>day07</h1>
     <input type="text"> <br>
     <p>这是一段测试内容</p>
-    
+    <h1>day08</h1>
+    <button id="send">渲染进程执行主进程里面的方法(默认异步)</button> <br>
+    <button id="sendReplay">渲染进程执行主进程里面的方法，主进程返回执行的结果</button>
+    <button id="sendSync">渲染进程执行主进程里面的方法(同步)</button>
 
 
     <script src="./renderer/index.js"></script>
     <script src="./renderer/menu.js"></script>
-
+    <script src="./renderer/ipcRenderer.js"></script>
   </body>
 </html>

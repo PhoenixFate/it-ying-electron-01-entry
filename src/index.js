@@ -32,8 +32,8 @@ const createWindow = () => {
 
 
   //执行设置菜单操作
-  // require('./menu.js')
-
+  // require('./main/ menu.js')
+  require('./main/ipcMain.js')
 
 
 
